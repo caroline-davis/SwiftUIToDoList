@@ -11,6 +11,7 @@
 		F0A8DF9727BDFAEB0030FACD /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */; };
 		F0A8DF9927BDFEAF0030FACD /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9827BDFEAF0030FACD /* AddView.swift */; };
 		F0A8DF9C27BE02C10030FACD /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9B27BE02C10030FACD /* ItemModel.swift */; };
+		F0A8DF9F27BE0CCB0030FACD /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9E27BE0CCB0030FACD /* ListViewModel.swift */; };
 		F0DFDF5627BDD520006B963C /* SwiftUIToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DFDF5527BDD520006B963C /* SwiftUIToDoListApp.swift */; };
 		F0DFDF5A27BDD521006B963C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DFDF5927BDD521006B963C /* Assets.xcassets */; };
 		F0DFDF5D27BDD521006B963C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0DFDF5C27BDD521006B963C /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListRowView.swift; path = SwiftUIToDoList/ListRowView.swift; sourceTree = SOURCE_ROOT; };
 		F0A8DF9827BDFEAF0030FACD /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = SwiftUIToDoList/AddView.swift; sourceTree = SOURCE_ROOT; };
 		F0A8DF9B27BE02C10030FACD /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ItemModel.swift; path = SwiftUIToDoList/ItemModel.swift; sourceTree = SOURCE_ROOT; };
+		F0A8DF9E27BE0CCB0030FACD /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListViewModel.swift; path = SwiftUIToDoList/ListViewModel.swift; sourceTree = SOURCE_ROOT; };
 		F0DFDF5227BDD520006B963C /* SwiftUIToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0DFDF5527BDD520006B963C /* SwiftUIToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIToDoListApp.swift; sourceTree = "<group>"; };
 		F0DFDF5927BDD521006B963C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,7 +44,6 @@
 		F0A8DF9327BDF9C70030FACD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F0A8DF9A27BE02AF0030FACD /* Models */,
 				F0A8DF9427BDF9DE0030FACD /* ListView.swift */,
 				F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */,
 				F0A8DF9827BDFEAF0030FACD /* AddView.swift */,
@@ -56,6 +57,14 @@
 				F0A8DF9B27BE02C10030FACD /* ItemModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F0A8DF9D27BE0CA90030FACD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F0A8DF9E27BE0CCB0030FACD /* ListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		F0DFDF4927BDD520006B963C = {
@@ -78,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				F0DFDF5527BDD520006B963C /* SwiftUIToDoListApp.swift */,
+				F0A8DF9A27BE02AF0030FACD /* Models */,
+				F0A8DF9D27BE0CA90030FACD /* ViewModels */,
 				F0A8DF9327BDF9C70030FACD /* Views */,
 				F0DFDF5927BDD521006B963C /* Assets.xcassets */,
 				F0DFDF5E27BDD521006B963C /* Info.plist */,
@@ -165,6 +176,7 @@
 			files = (
 				F0A8DF9C27BE02C10030FACD /* ItemModel.swift in Sources */,
 				F0A8DF9927BDFEAF0030FACD /* AddView.swift in Sources */,
+				F0A8DF9F27BE0CCB0030FACD /* ListViewModel.swift in Sources */,
 				F0DFDF5627BDD520006B963C /* SwiftUIToDoListApp.swift in Sources */,
 				F0A8DF9527BDF9DE0030FACD /* ListView.swift in Sources */,
 				F0A8DF9727BDFAEB0030FACD /* ListRowView.swift in Sources */,
