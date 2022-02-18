@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F08D93F527BF243A006E5657 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08D93F427BF243A006E5657 /* NoItemsView.swift */; };
 		F0A8DF9527BDF9DE0030FACD /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9427BDF9DE0030FACD /* ListView.swift */; };
 		F0A8DF9727BDFAEB0030FACD /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */; };
 		F0A8DF9927BDFEAF0030FACD /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0A8DF9827BDFEAF0030FACD /* AddView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F08D93F427BF243A006E5657 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		F0A8DF9427BDF9DE0030FACD /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListView.swift; path = SwiftUIToDoList/ListView.swift; sourceTree = SOURCE_ROOT; };
 		F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListRowView.swift; path = SwiftUIToDoList/ListRowView.swift; sourceTree = SOURCE_ROOT; };
 		F0A8DF9827BDFEAF0030FACD /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddView.swift; path = SwiftUIToDoList/AddView.swift; sourceTree = SOURCE_ROOT; };
@@ -47,6 +49,7 @@
 				F0A8DF9427BDF9DE0030FACD /* ListView.swift */,
 				F0A8DF9627BDFAEB0030FACD /* ListRowView.swift */,
 				F0A8DF9827BDFEAF0030FACD /* AddView.swift */,
+				F08D93F427BF243A006E5657 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				F0A8DF9F27BE0CCB0030FACD /* ListViewModel.swift in Sources */,
 				F0DFDF5627BDD520006B963C /* SwiftUIToDoListApp.swift in Sources */,
 				F0A8DF9527BDF9DE0030FACD /* ListView.swift in Sources */,
+				F08D93F527BF243A006E5657 /* NoItemsView.swift in Sources */,
 				F0A8DF9727BDFAEB0030FACD /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

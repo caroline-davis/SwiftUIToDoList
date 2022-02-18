@@ -10,7 +10,7 @@ import SwiftUI
 /* MVVM
  model - data points
  view - ui
- viewmodel moanages models for view
+ viewmodel manages models for view
  */
 
 @main
