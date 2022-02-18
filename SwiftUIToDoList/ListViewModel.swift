@@ -16,7 +16,7 @@ import Foundation
 
 class ListViewModel: ObservableObject {
 
-    // did set gets called anytime anytime we change this items array
+    // did set gets called anytime we change this items array
     @Published var items: [ItemModel] = [] {
         didSet {
             saveItems()
@@ -50,7 +50,6 @@ class ListViewModel: ObservableObject {
     // onMove needs this type from: IndexSet, to: Int so we can use this
     func moveItem(from: IndexSet, to: Int) {
         items.move(fromOffsets: from, toOffset: to)
-
     }
 
     func addItem(title: String) {

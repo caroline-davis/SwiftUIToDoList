@@ -15,9 +15,9 @@ import SwiftUI
 
 @main
 struct SwiftUIToDoListApp: App {
-
+    
     @StateObject var listViewModel: ListViewModel = ListViewModel()
-
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
