@@ -23,6 +23,8 @@ struct SwiftUIToDoListApp: App {
             NavigationView {
                 ListView()
             }
+            // this fixes the ipad so its not just the side bar
+            .navigationViewStyle(StackNavigationViewStyle())
             .environmentObject(listViewModel)
         }
     }
